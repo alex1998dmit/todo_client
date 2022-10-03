@@ -1,0 +1,1 @@
+export type RouteMode = 'sign' | 'free' | 'unsign'
