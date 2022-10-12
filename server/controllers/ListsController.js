@@ -1,6 +1,5 @@
 const List = require('../models').List
 const to = require('await-to-js').default
-const { validationResult } = require('express-validator')
 
 module.exports = {
   getById: async (req, res) => {

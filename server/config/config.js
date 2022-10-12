@@ -36,4 +36,4 @@ const creds = {
     dialect: 'postgresql'
 }
 
-module.exports = creds
+module.exports = creds;
