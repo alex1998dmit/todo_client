@@ -14,7 +14,6 @@ module.exports = {
     // TODO возравщать ошибку
     if (list) return res.status(200).send(list)
     const [errCreate, newList] = await to(List.create({
-      id: req.body.id,
       title: req.body.title || '',
     }))
     if (errCreate)  return res.status(500).send(errCreate) 
